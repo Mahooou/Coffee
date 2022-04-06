@@ -389,6 +389,8 @@ li{
 .section_pic{
     background: url("../img/section_bg.jpg") no-repeat center center / cover;
     height: 340px;
+    width: 1440px;
+    margin: 0 auto;
 }
 /* stories */
 .stories{
