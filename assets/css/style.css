@@ -115,6 +115,10 @@ li{
 }
 .intro_texts{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .intro_pretitle{
     font-size: 12px;
@@ -140,6 +144,14 @@ li{
     background-color: #FFFFFF;
     border: none;
     cursor: pointer;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
 }
 .intro_btn:hover{ /* Анимация тени при наведении */
     filter: drop-shadow(2px 2px 10px #a25f4bcf);
@@ -353,6 +365,12 @@ li{
     border: none;
     cursor: pointer;
     transition: 0.3s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 .premium_btn:hover{ /* Анимация появлении тени при наведении */
     filter: drop-shadow(1px 1px 3px #000);
@@ -466,9 +484,16 @@ li{
 .updates_sub{ /* Настройка кнопки */
     width: 129px;
     height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
     background-color: #FFFFFF;
     border: none;
     cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     transition: 0.3s;
 }
 .updates_sub:hover{ /* Настройка появлении тени при наведении */
@@ -478,11 +503,7 @@ li{
     color: #A25F4B;
 }
 .updates_sub a{
-    font-size: 12px;
-    color: #000000;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.3s;
+    
 }
 /* footer */
 .footer{
